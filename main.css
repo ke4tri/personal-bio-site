@@ -1,27 +1,74 @@
 body {
+    display: flex;
+    flex-direction: column;
 
 }
-.wrap {
 
+
+
+.wrapper {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_h {
+    border: 1px solid black;
+}
+
+#navLinks{
+    list-style: none;  
+    display: flex;
+    border: 1px solid black;
+    
+    
+}
+
+li{
+    justify-content: center;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+#navToBio {
+    border: 1px solid black;
+    
+}
+
+#navToTechnologies{
+    border: 1px solid black;
+}
+#navToProjects{
+    border: 1px solid black;
 }
 
 .fullpage {
-
+    border: 1px solid black;
 }
 
 #bioPage {
+    border: 1px solid black;
+}
 
+ph{
+    border: 1px solid black;
 }
 
 #technologiesPage {
-    
+    list-style: none;
 }
 
 ul {
-    
+    border: 1px solid black;
 }
-
 li {
-
+    border: 1px solid black;
+list-style: none;
 }
 
