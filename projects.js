@@ -3,7 +3,7 @@ const projects =
     {
     project: "Wayne Collier",
     title: "Cool Project", 
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+    screenshot: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&h=350", 
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     available: true,
@@ -36,8 +36,8 @@ const createProjectCards = () => {
         newString +=    `<img src="${projects[i].screenshot}">`;
         newString +=    `<h3>${projects[i].description}</h3>`;
         newString +=    `<h3>${projects[i].technologiesUsed}</h3>`;
-        newString +=    `<h3><a href="${projects[i].url}">URL GOES HERE</a></h3>`;
-        newString +=    `<h3><a href="${projects[i].githubUrl}">GitHub Link HERE</a></h3>`;
+        newString +=    `<h3><a href="${projects[i].url}" style="text-decoration:none">URL GOES HERE</a></h3>`;
+        newString +=    `<h3><a href="${projects[i].githubUrl}" style="text-decoration:none">GitHub Link HERE</a></h3>`;
         newString += `</div>`;
         }
     };
