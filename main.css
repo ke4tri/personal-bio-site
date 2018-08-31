@@ -1,74 +1,73 @@
 body {
-    display: flex;
-    flex-direction: column;
-
+	background-color: antiquewhite;
+	font-family: 'PT Mono', monospace;
+	display: flex;
+	flex-direction: column;
 }
-
-
-
 .wrapper {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 }
 
-nav{
-    border: 1px solid black;
+a {
+    color:black;
+    cursor: pointer;
+}
+
+nav {
     display: flex;
+    list-style-type: none;
     justify-content: space-between;
-}
-
-.name_h {
-    border: 1px solid black;
-}
-
-#navLinks{
-    list-style: none;  
-    display: flex;
-    border: 1px solid black;
-    
     
 }
+.name_h {} 
 
-li{
-    justify-content: center;
-    margin-right: 10px;
-    border: 1px solid black;
+#navLinks {
+	align-items: center;
+	list-style: none;
+	display: flex;
+}
+ul {} 
+
+li {
+	justify-content: center;
+	margin-right: 10px;
+	list-style: none;
 }
 #navToBio {
-    border: 1px solid black;
-    
+	background-color: antiquewhite;
+}
+#navToTechnologies {
+	background-color: antiquewhite;
+}
+#navToProjects {
+	background-color: antiquewhite;
+}
+.fullpage {} .page-footer {} #bioPage {} bHtag {} pHtag {} 
+
+img {
+	min-width: 300px;
+	height: auto;
+	border: 1px solid lightslategrey;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 60%;
+	border-top-left-radius: 2%;
+	box-shadow: 5px 5px;
 }
 
-#navToTechnologies{
-    border: 1px solid black;
-}
-#navToProjects{
-    border: 1px solid black;
+projectCard {
+
 }
 
-.fullpage {
-    border: 1px solid black;
-}
+h1 {} 
 
-#bioPage {
-    border: 1px solid black;
-}
+h3 {
 
-ph{
-    border: 1px solid black;
 }
+ph {} #technologiesPage {} ul {} 
 
-#technologiesPage {
-    list-style: none;
+a {
+	list-style-type: none;
 }
-
-ul {
-    border: 1px solid black;
-}
-li {
-    border: 1px solid black;
-list-style: none;
-}
-
