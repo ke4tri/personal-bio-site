@@ -1,5 +1,5 @@
 body {
-	background-color: antiquewhite;
+	background-color: rgba(246, 244, 241, 0.555);
 	font-family: 'PT Mono', monospace;
 	display: flex;
 	flex-direction: column;
@@ -37,7 +37,7 @@ body, html {
 }
 
 p {
-	color: white;
+	color: darkolivegreen;
 }
 
 a {
@@ -61,19 +61,24 @@ nav {
 }
 
 li {
+	
 	color: gray;
 	justify-content: center;
 	margin-right: 10px;
 	list-style: none;
 }
 #navToBio {
-	background-color: antiquewhite;
+	background-color: rgba(246, 244, 241, 0.150);
+	border-radius: 30%;
 }
 #navToTechnologies {
-	background-color: antiquewhite;
+	background-color: rgba(246, 244, 241, 0.150);
+	border-radius: 60%;
 }
 #navToProjects {
-	background-color: antiquewhite;
+	background-color: rgba(246, 244, 241, 0.150);
+	border-bottom-right-radius: 30%;
+	opacity: 20%;
 }
 
 img {
