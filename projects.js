@@ -33,7 +33,7 @@ const createProjectCards = () => {
         if(projects[i].available === true) {
         newString += `<div class="projectCard">`;
         newString +=    `<h3>${projects[i].title}</h3>`;
-        newString +=    `<img src="${projects[i].screenshot}">`;
+        newString +=    `<img class="pic" src="${projects[i].screenshot}">`;
         newString +=    `<h3>${projects[i].description}</h3>`;
         newString +=    `<h3>${projects[i].technologiesUsed}</h3>`;
         newString +=    `<h3><a href="${projects[i].url}" style="text-decoration:none">URL GOES HERE</a></h3>`;
