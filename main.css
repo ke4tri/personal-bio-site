@@ -29,7 +29,6 @@ nav {
 	list-style: none;
 	display: flex;
 }
-ul {} 
 
 li {
 	justify-content: center;
@@ -61,12 +60,8 @@ projectCard {
 
 }
 
-h1 {} 
 
-h3 {
-
-}
-ph {} #technologiesPage {} ul {} 
+#technologiesPage {}  
 
 a {
 	list-style-type: none;
