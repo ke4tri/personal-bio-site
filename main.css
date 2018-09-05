@@ -25,12 +25,16 @@ body, html {
 	background-size: cover;
 }
 
-.header-block {
-
-}
 
 .fullPage {
-	padding-top:600px;
+	/* padding-top:600px; */
+}
+
+#bioPage{
+	text-align: center;
+	padding-top: 500px;
+	/* margin-top: 30px; */
+	border: 2px solid black;
 }
 
 p {
@@ -47,6 +51,7 @@ nav {
     list-style-type: none;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	border: 2px solid black;
 }
 
 #navLinks {
@@ -56,26 +61,20 @@ nav {
 }
 
 li {
-	
 	color: gray;
 	justify-content: center;
 	margin-right: 10px;
 	list-style: none;
 }
 
-#bioPage{
-	text-align: center;
-	padding-top: 700px;
-	/* margin-top: 30px; */
-}
-
 #technologiesPage {
 	padding-top: 20px;
+	border: 2px solid black;
 }
 
 #projectsPage {
 	padding-top: 100px;
-
+	border: 2px solid black;
 }
 
 #navToBio {
@@ -123,6 +122,25 @@ li {
 	text-align: center;
 }  
 
-a {
-	list-style-type: none;
+@media (max-width: 450px) { 
+
+	nav {
+		display: flex;
+		list-style-type: none;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		padding-bottom: 510px;
+		border: 2px solid black;
+	}
+
+	/* .fullPage {
+		padding-top:400px;
+	} */
+	
+	#bioPage{
+		border: 2px solid black;
+		text-align: center;
+		/* padding-top: 50px; */
+		/* margin-top: 30px; */
+	}
 }
