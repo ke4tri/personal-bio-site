@@ -30,7 +30,7 @@ body, html {
 }
 
 .fullPage {
-	padding-top:400px;
+	padding-top:600px;
 }
 
 p {
@@ -65,7 +65,17 @@ li {
 
 #bioPage{
 	text-align: center;
-	margin-top: 50px;
+	padding-top: 700px;
+	/* margin-top: 30px; */
+}
+
+#technologiesPage {
+	padding-top: 20px;
+}
+
+#projectsPage {
+	padding-top: 100px;
+
 }
 
 #navToBio {
