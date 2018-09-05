@@ -67,6 +67,11 @@ li {
 	margin-right: 10px;
 	list-style: none;
 }
+
+#bioPage{
+	text-align: center;
+	margin-top: 50px;
+}
 #navToBio {
 	background-color: rgba(246, 244, 241, 0.150);
 	border-radius: 30%;
@@ -81,26 +86,33 @@ li {
 	opacity: 20%;
 }
 
-img {
-	
-}
+
 .pic{
-	max-width: 90%;
-	min-width: 150px;
+	max-width: 100px;
 	height: auto;
-	border: 1px solid lightslategrey;
-	border-bottom-left-radius: 20%;
+	/* border: 1px solid lightslategrey; */
+	/* border-bottom-left-radius: 20%;
 	border-bottom-right-radius: 60%;
 	border-top-left-radius: 2%;
-	box-shadow: 5px 5px;
+	box-shadow: 5px 5px; */
 }
 
-projectCard {
-
+.projectCard0 {
+	padding-bottom: 10px;
+	/* margin-bottom: 10px; */
+}
+.projectCard1 {
+	padding-bottom: 10px;
+	/* margin-bottom: 10px; */
+}
+.projectCard2 {
+	padding-bottom: 10px;
+	/* margin-bottom: 10px; */
 }
 
 
 #technologiesPage {
+	text-align: center;
 	
 }  
 
