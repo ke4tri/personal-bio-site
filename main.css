@@ -10,27 +10,23 @@ body, html {
 }
 
 .wrapper {
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center; */
-	/* The image used */
+
 	background-image: url("images/me2.jpg");
-	/* Full height */
 	height: 100%; 
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.header-block {
-
-}
 
 .fullPage {
-	padding-top:400px;
+}
+
+#bioPage{
+	text-align: center;
+	padding-top: 500px;
+	border: 2px solid black;
 }
 
 p {
@@ -47,6 +43,7 @@ nav {
     list-style-type: none;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	border: 2px solid black;
 }
 
 #navLinks {
@@ -56,63 +53,72 @@ nav {
 }
 
 li {
-	
 	color: gray;
 	justify-content: center;
 	margin-right: 10px;
 	list-style: none;
 }
 
-#bioPage{
-	text-align: center;
-	margin-top: 50px;
+#technologiesPage {
+	padding-top: 20px;
+	border: 2px solid black;
+}
+
+#projectsPage {
+	padding-top: 100px;
+	border: 2px solid black;
 }
 
 #navToBio {
 	background-color: rgba(246, 244, 241, 0.150);
-	border-radius: 30%;
+	/* border-radius: 30%; */
 }
 
 #navToTechnologies {
 	background-color: rgba(246, 244, 241, 0.150);
-	border-radius: 60%;
+	/* border-radius: 60%; */
 }
 
 #navToProjects {
 	background-color: rgba(246, 244, 241, 0.150);
-	border-bottom-right-radius: 30%;
+	/* border-bottom-right-radius: 30%; */
 	opacity: 20%;
 }
 
 .pic{
 	max-width: 100px;
 	height: auto;
-	/* border: 1px solid lightslategrey; */
-	/* border-bottom-left-radius: 20%;
-	border-bottom-right-radius: 60%;
-	border-top-left-radius: 2%;
-	box-shadow: 5px 5px; */
 }
 
 .projectCard0 {
 	padding-bottom: 10px;
-	/* margin-bottom: 10px; */
 }
 
 .projectCard1 {
 	padding-bottom: 10px;
-	/* margin-bottom: 10px; */
 }
 
 .projectCard2 {
 	padding-bottom: 10px;
-	/* margin-bottom: 10px; */
 }
 
 #technologiesPage {
 	text-align: center;
 }  
 
-a {
-	list-style-type: none;
+@media (max-width: 450px) { 
+
+	nav {
+		display: flex;
+		list-style-type: none;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		padding-bottom: 510px;
+		border: 2px solid black;
+	}
+
+	#bioPage{
+		border: 2px solid black;
+		text-align: center;
+	}
 }
