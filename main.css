@@ -19,13 +19,10 @@ body, html {
 	background-size: cover;
 }
 
-
-.fullPage {
-}
-
 #bioPage{
 	text-align: center;
-	padding-top: 500px;
+	margin-top: 700px;
+	padding-top: 50px;
 	border: 2px solid black;
 }
 
@@ -61,27 +58,20 @@ li {
 
 #technologiesPage {
 	padding-top: 20px;
-	border: 2px solid black;
-}
-
-#projectsPage {
-	padding-top: 100px;
+	padding-bottom: 40px;
 	border: 2px solid black;
 }
 
 #navToBio {
 	background-color: rgba(246, 244, 241, 0.150);
-	/* border-radius: 30%; */
 }
 
 #navToTechnologies {
 	background-color: rgba(246, 244, 241, 0.150);
-	/* border-radius: 60%; */
 }
 
 #navToProjects {
 	background-color: rgba(246, 244, 241, 0.150);
-	/* border-bottom-right-radius: 30%; */
 	opacity: 20%;
 }
 
@@ -90,18 +80,46 @@ li {
 	height: auto;
 }
 
+#projectsPage {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;	
+	border: 2px solid purple;
+}
+
 .projectCard0 {
+	display: flex;
+	flex-direction: column;	
 	padding-bottom: 10px;
+	border: 2px solid black;
 }
 
 .projectCard1 {
+	display: flex;
+	flex-direction: column;	
 	padding-bottom: 10px;
+	border: 2px solid black;
 }
 
 .projectCard2 {
+	display: flex;
+	flex-direction: column;	
 	padding-bottom: 10px;
+	border: 2px solid black;
 }
 
+#pic1 {
+	justify-content: center;
+	max-height: 100px;
+	width:100px;
+
+}
+
+.flex {
+	display:flex;
+	justify-content: center;
+	border: 2px solid orange;
+}
 #technologiesPage {
 	text-align: center;
 }  
