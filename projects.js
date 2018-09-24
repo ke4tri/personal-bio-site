@@ -40,7 +40,7 @@ const createProjectCards = () => {
     for(i=0;i<projects.length;i++){
         if(projects[i].available === true) {
         newString += `<div class="projectCard${[i]}">`;
-        newString +=    `<h3 class="flex">${projects[i].title}</h3>`;
+        newString +=    `<h3 class="flex" style="margin-top:50px;">${projects[i].title}</h3>`;
         newString +=    `<img class="flex" id="pic1" src="${projects[i].screenshot}">`;
         newString +=    `<h3 class="flex">${projects[i].description}</h3>`;
         newString +=    `<h3 class="flex">${projects[i].technologiesUsed}</h3>`;
