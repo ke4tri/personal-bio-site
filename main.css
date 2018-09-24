@@ -23,7 +23,6 @@ body, html {
 	text-align: center;
 	margin-top: 700px;
 	padding-top: 50px;
-	border: 2px solid black;
 }
 
 p {
@@ -31,7 +30,6 @@ p {
 }
 
 a {
-    color:black;
     cursor: pointer;
 }
 
@@ -40,7 +38,6 @@ nav {
     list-style-type: none;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	border: 2px solid black;
 }
 
 #navLinks {
@@ -59,7 +56,6 @@ li {
 #technologiesPage {
 	padding-top: 20px;
 	padding-bottom: 40px;
-	border: 2px solid black;
 }
 
 #navToBio {
@@ -84,44 +80,50 @@ li {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;	
-	border: 2px solid purple;
 }
 
 .projectCard0 {
 	display: flex;
 	flex-direction: column;	
 	padding-bottom: 10px;
-	border: 2px solid black;
 }
 
 .projectCard1 {
 	display: flex;
 	flex-direction: column;	
 	padding-bottom: 10px;
-	border: 2px solid black;
 }
 
 .projectCard2 {
 	display: flex;
 	flex-direction: column;	
 	padding-bottom: 10px;
-	border: 2px solid black;
 }
 
 #pic1 {
 	max-width: 100px;
 	max-height: auto;
-	margin-left: 46.5%;
+	margin-left: 45%;
 }
 
 .flex {
 	display:flex;
 	justify-content: center;
-	border: 2px solid orange;
+	margin-top: 0px;
 }
 #technologiesPage {
 	text-align: center;
 }  
+
+.wrapperDiv {
+	display: flex;
+}
+.page-footer {
+	
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 0px;
+}
 
 @media (max-width: 450px) { 
 
@@ -131,11 +133,9 @@ li {
 		justify-content: space-evenly;
 		flex-wrap: wrap;
 		padding-bottom: 510px;
-		border: 2px solid black;
 	}
 
 	#bioPage{
-		border: 2px solid black;
 		text-align: center;
 	}
 }
