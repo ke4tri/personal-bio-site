@@ -1,24 +1,24 @@
 const projects = 
 [
     {
-    project: "Wayne Collier",
-    title: "Auto Ice Maker", 
-    screenshot: "/images/app_icon.png ", 
-    description: "Tired of making ice? Let us do it all for you! With the Auto Ice Maker we can tak you into the future. ", // A good project description includes 'the what', 'the why', and 'the how'.
+    project: "Language Christmas Card Translator",
+    title: "Translator", 
+    screenshot: "/images/download.png ", 
+    description: "Type in a phrase of predetermind english words and click what language you would like to hear it translated into.", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, JS, Github",
     available: true,
-    url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
+    url: "https://github.com/ke4tri/translator", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: "https://github.com/ke4tri/translator"
 },
 {
-    project: "Project 2",
-    title: "Eye Magic Miker", 
-    screenshot: "/images/app-xnsoft-512.png", 
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+    project: "Random Harry Potter House Sort Tool",
+    title: "Sort!", 
+    screenshot: "/images/images.png", 
+    description: "For sorting new students into an appropriate house for school.", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     available: true, //did have this as false. false will keep it from running 
-    url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
+    url: "https://github.com/ke4tri/sorting_hat", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: "https://github.com/ke4tri/sorting_hat"
 },
 {
     project: "Project 3",
@@ -26,7 +26,7 @@ const projects =
     screenshot: "/images/logo.png", 
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    available: true, //did have this as false. false will keep it from running 
+    available: false, //did have this as false. false will keep it from running 
     url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
     githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
 }
