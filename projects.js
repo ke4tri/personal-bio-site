@@ -55,20 +55,24 @@ createProjectCards();
 
 // push branch once set event listeners on all the buttons
 // Connect bio button to run this function
-function showForm(pageID) {
+function showForm(pageID, hide1,hide2) {
     document.getElementById(pageID).style.display= "block";
+    document.getElementById(hide1).style.display= "none";
+    document.getElementById(hide2).style.display= "none";
+
 };
 
+
 document.getElementById("navToBio").addEventListener("click", function(){
-    showForm('bioPage');
+    showForm('bioPage','technologiesPage','projectsPage');
 });
 
 document.getElementById("navToTechnologies").addEventListener("click", function(){
-    showForm('technologiesPage');
+    showForm('technologiesPage','bioPage','projectsPage');
 });
 
 document.getElementById("navToProjects").addEventListener("click", function(){
-    showForm('projectsPage');
+    showForm('projectsPage','bioPage', 'technologiesPage');
 });
 
 

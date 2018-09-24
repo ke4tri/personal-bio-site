@@ -21,8 +21,9 @@ body, html {
 
 #bioPage{
 	text-align: center;
-	margin-top: 700px;
-	padding-top: 50px;
+	margin-top: 755px;
+	padding-botton: 0px;
+	/* padding-top: 50px; */
 }
 
 p {
@@ -53,11 +54,6 @@ li {
 	list-style: none;
 }
 
-#technologiesPage {
-	padding-top: 20px;
-	padding-bottom: 40px;
-}
-
 #navToBio {
 	background-color: rgba(246, 244, 241, 0.150);
 }
@@ -78,8 +74,8 @@ li {
 
 #projectsPage {
 	display: flex;
-	margin-top: 700px;
-	padding-top: 100px;
+	margin-top: 755px;
+	/* padding-top: 100px; */
 	justify-content: center;
 	flex-direction: column;	
 }
@@ -114,8 +110,10 @@ li {
 	margin-top: 0px;
 }
 #technologiesPage {
-	margin-top: 700px;
-	padding-top: 100px;
+	margin-top: 755px;
+	margin-bottom: 0px;
+	/* padding-top: 100px; */
+
 	text-align: center;
 }  
 
