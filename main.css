@@ -109,10 +109,9 @@ li {
 }
 
 #pic1 {
-	justify-content: center;
-	max-height: 100px;
-	width:100px;
-
+	max-width: 100px;
+	max-height: auto;
+	margin-left: 46.5%;
 }
 
 .flex {
