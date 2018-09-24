@@ -103,7 +103,7 @@ li {
 #pic1 {
 	max-width: 100px;
 	max-height: auto;
-	margin-left: 45%;
+	margin-left: 46.5%;
 }
 
 .flex {
@@ -115,15 +115,7 @@ li {
 	text-align: center;
 }  
 
-.wrapperDiv {
-	display: flex;
-}
-.page-footer {
-	
-	justify-content: center;
-	flex-direction: column;
-	margin-top: 0px;
-}
+
 
 @media (max-width: 450px) { 
 
