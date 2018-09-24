@@ -52,8 +52,11 @@ const createProjectCards = () => {
     printToDom(newString, 'projectsPage');
 };
 createProjectCards();
-
-
+// push branch once set event listeners on all the buttons
+// Connect bio button to run this function
+function showForm() {
+    document.getElementById('bioPage').style.display= "block";
+};
 
 
 
