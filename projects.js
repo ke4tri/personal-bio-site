@@ -53,7 +53,23 @@ const createProjectCards = () => {
 };
 createProjectCards();
 
+// push branch once set event listeners on all the buttons
+// Connect bio button to run this function
+function showForm(pageID) {
+    document.getElementById(pageID).style.display= "block";
+};
+
+document.getElementById("navToBio").addEventListener("click", function(){
+    showForm('bioPage');
+});
+
+document.getElementById("navToTechnologies").addEventListener("click", function(){
+    showForm('technologiesPage');
+});
+
+document.getElementById("navToProjects").addEventListener("click", function(){
+    showForm('projectsPage');
+});
 
 
-
-
+  

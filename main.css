@@ -78,6 +78,8 @@ li {
 
 #projectsPage {
 	display: flex;
+	margin-top: 700px;
+	padding-top: 100px;
 	justify-content: center;
 	flex-direction: column;	
 }
@@ -112,9 +114,15 @@ li {
 	margin-top: 0px;
 }
 #technologiesPage {
+	margin-top: 700px;
+	padding-top: 100px;
 	text-align: center;
 }  
 
+.wrapperDiv {
+	margin-top: 650px;
+	padding-top: 100px;
+}
 
 
 @media (max-width: 450px) { 
