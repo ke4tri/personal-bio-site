@@ -77,9 +77,12 @@ li {
 
 #projectsPage {
 	display: flex;
+	
 	margin-top: 755px;
 	justify-content: center;
 	flex-direction: column;	
+	font-family: 'Courier New', Courier, monospace;
+	
 }
 
 .projectCard0 {
@@ -103,11 +106,12 @@ li {
 #pic1 {
 	max-width: 100px;
 	max-height: auto;
-	margin-left: 46.5%;
+	margin-left: 45%;
 }
 
 .flex {
 	display:flex;
+	font-size: 20px;
 	justify-content: center;
 	margin-top: 0px;
 }
